@@ -36,6 +36,12 @@ const skills = [
     category: " Code Editor",
   },
 
+    {
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" ,
+    name: "Vercel",
+    category: " Deployment",
+  },
+
   
 ];
 

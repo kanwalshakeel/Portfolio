@@ -1,12 +1,12 @@
 import React from "react";
-import image from 'next/image'
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center">
-      
+    <section
+      id="home"
+      className="min-h-[calc(100vh-80px)] flex items-center"
+    >
       <div className="max-w-6xl w-full mx-auto px-4">
-        
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
 
           <div className="flex flex-col gap-4">
@@ -34,9 +34,11 @@ const Hero = () => {
               <a
                 href="https://github.com/kanwalshakeel"
                 target="_blank"
-                className="inline-flex items-center gap-2 bg-[#22C55E] text-black rounded px-4 py-2 font-medium hover:bg-[#22C55E] transition"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#22C55E] text-black rounded px-4 py-2 font-medium hover:bg-[#16A34A] transition"
               >
-                View my projects <span className="text-xl font-bold">→</span>
+                View my projects
+                <span className="text-xl font-bold">→</span>
               </a>
             </div>
 
@@ -51,9 +53,7 @@ const Hero = () => {
           </div>
 
         </div>
-
       </div>
-
     </section>
   );
 };

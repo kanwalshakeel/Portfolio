@@ -5,11 +5,11 @@ import { FiDownload } from "react-icons/fi";
 const Navbar = () => {
   return (
 
-    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 sm:px-8 py-5 bg-[#0A0F0D]">
+    <nav className="sticky top-0 left-0 w-full z-50 flex items-center justify-between px-4 sm:px-8 py-5 bg-[#0A0F0D]">
 
       <div>
         <Link
-          href="#home"
+          href=""
           className="text-white text-base sm:text-xl font-semibold whitespace-nowrap"
         >
           &lt;/&gt; <span className="text-[#22C55E]">Kanwal Shakeel</span>
@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul className="flex items-center gap-8">
           <li>
             <Link
-              href="#home"
+              href="/"
               className="text-[#A1A1AA] hover:text-[#22C55E] transition"
             >
               Home
@@ -30,7 +30,7 @@ const Navbar = () => {
 
           <li>
             <Link
-              href="#skill"
+              href="/skills"
               className="text-[#A1A1AA] hover:text-[#22C55E] transition"
             >
               Skills
@@ -39,7 +39,7 @@ const Navbar = () => {
 
           <li>
             <Link
-              href="#projects"
+              href="/project"
               className="text-[#A1A1AA] hover:text-[#22C55E] transition"
             >
               Projects
@@ -47,7 +47,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="#about"
+              href="/about"
               className="text-[#A1A1AA] hover:text-[#22C55E] transition"
             >
               About
@@ -56,7 +56,7 @@ const Navbar = () => {
 
           <li>
             <Link
-              href="#contact"
+              href="/contact"
               className="text-[#A1A1AA] hover:text-[#22C55E] transition"
             >
               Contact
