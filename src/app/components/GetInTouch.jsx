@@ -47,7 +47,7 @@ const GetInTouch = () => {
            
               <div className="flex items-center gap-4">
                 <svg className="text-[#00df9a] w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                <span className="text-gray-300 text-sm md:text-base">kanwalshakeel345@gmail.com</span>
+                <span className="text-gray-300 text-sm md:text-base">kanwlshakeel345@gmail.com</span>
               </div>
               
               
